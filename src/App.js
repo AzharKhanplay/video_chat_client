@@ -17,7 +17,7 @@ const App = () => {
    return(
      <div>
        <AppBar className={classes.appBar}>
-        <Typography varient="h2" align="center">Welcome to Samna.</Typography>
+        <Typography varient="h2" align="center">Welcome to Shere.</Typography>
        </AppBar>
        <VideoPlayer></VideoPlayer>
        <Options>
