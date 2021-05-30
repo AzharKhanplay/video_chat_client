@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
   video: {
     width: '550px',
     [theme.breakpoints.down('xs')]: {
-      width: '80%',
+      width: '100%',
     },
   },
   gridContainer: {
@@ -32,7 +32,7 @@ const VideoPlayer = () =>{
          <Paper className={classes.paper}>
            <Grid item xs={12} md={6}>
              <Typography varient="h5" gutterBottom>{name || 'Name'}</Typography>
-             <video playsInline ref={myVideo} autoPlay className={classes.video} />
+             <video playsInline ref={myVideo} autoPlay muted className={classes.video} />
            </Grid>
          </Paper>
       )}
